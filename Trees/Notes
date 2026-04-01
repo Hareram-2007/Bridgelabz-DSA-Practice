@@ -1,0 +1,207 @@
+🌳 Tree — 
+🔹 1. Root Node
+
+Definition:
+The topmost node of a tree is called the root node.
+
+Example:
+
+   A
+
+👉 A is the root node
+
+🔹 2. Parent Node
+
+Definition:
+A node that has one or more children is called a parent node.
+
+Example:
+
+   A
+  /
+ B
+
+👉 A is parent of B
+
+🔹 3. Child Node
+
+Definition:
+A node directly connected below a parent node is called a child node.
+
+Example:
+
+   A
+  /
+ B
+
+👉 B is child of A
+
+🔹 4. Sibling Nodes
+
+Definition:
+Nodes that have the same parent are called sibling nodes.
+
+Example:
+
+   A
+  / \
+ B   C
+
+👉 B and C are siblings
+
+🔹 5. Edge
+
+Definition:
+A connection between two nodes is called an edge.
+
+Example:
+
+A — B
+
+👉 Property:
+A tree with n nodes has (n − 1) edges
+
+🔹 6. Degree of a Node
+
+Definition:
+The number of children of a node is called its degree.
+
+Example:
+
+     A
+   / | \
+  B  C  D
+
+👉 Degree of A = 3
+
+🔹 7. Degree of a Tree
+
+Definition:
+The maximum degree of any node in the tree is called the degree of the tree.
+
+🔹 8. Internal Node
+
+Definition:
+A node that has at least one child is called an internal node.
+
+Example:
+
+     A
+    / \
+   B   C
+  /
+ D
+
+👉 A and B are internal nodes
+
+🔹 9. Leaf Node
+
+Definition:
+A node that has no children is called a leaf node.
+
+Example:
+
+     A
+    / \
+   B   C
+  /
+ D
+
+👉 C and D are leaf nodes
+
+🔹 10. Level
+
+Definition:
+The position of a node in a tree is called its level.
+Root is at level 0.
+
+Example:
+
+Level 0:   A
+          / \
+Level 1: B   C
+        /
+Level 2:D
+🔹 11. Height of Node
+
+Definition:
+The number of edges in the longest path from that node to a leaf node.
+
+🔹 12. Height of a Tree
+
+Definition:
+The number of edges in the longest path from the root to a leaf node.
+
+Example:
+
+     A
+    / \
+   B   C
+  /
+ D
+
+👉 Height = 2
+
+🔹 13. Depth
+
+Definition:
+The number of edges from the root node to a given node.
+
+👉 Example: Depth of D = 2
+
+🔹 14. Subtree
+
+Definition:
+A subtree is a tree formed by a node and all of its descendants.
+
+Example:
+
+     A
+    / \
+   B   C
+  /
+ D
+
+Subtree of B:
+
+   B
+  /
+ D
+🌳 Types of Trees (Exam Format)
+🔹 1. General Tree
+
+Definition:
+A tree in which a node can have any number of children.
+
+Example:
+
+      A
+    / | \
+   B  C  D
+      |
+      E
+🔹 2. Binary Tree
+
+Definition:
+A tree in which each node has at most two children.
+
+Example:
+
+     A
+    / \
+   B   C
+🔹 3. Binary Search Tree (BST)
+
+Definition:
+A binary tree in which:
+
+Left subtree nodes are less than root
+Right subtree nodes are greater than root
+
+Example:
+
+      10
+     /  \
+    5   20
+
+
